@@ -47,7 +47,7 @@ export default function Contact() {
         download resume ↗
       </a>
 
-      <pre className="mt-16 select-none text-[11px] leading-tight text-muted">
+      <pre className="mt-6 select-none text-[11px] leading-tight text-muted">
         {`  .=%%=.
 ,|\`=%%='|
 ||      |   talk soon
