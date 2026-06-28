@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* dulldesk-inspired: plain, light, monospace, lots of breathing room. */
+@theme {
+  /* ☕ coffee palette */
+  --color-paper: #f5eee3; /* warm latte cream background */
+  --color-ink: #2c211a; /* dark espresso text */
+  --color-muted: #8a7261; /* mocha for secondary text */
+  --color-line: #e6d9c8; /* light coffee tan for borders/rules */
+  --color-accent: #a55a28; /* cinnamon / caramel accent */
+  --color-sidebar: #2b1d13; /* rich espresso panel */
+  --color-sidebar-muted: #b09a82; /* warm taupe text on the dark sidebar */
+  --font-mono: "DM Mono", "JetBrains Mono", ui-monospace, SFMono-Regular,
+    "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-mono);
+  font-size: 15px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* selection */
+::selection {
+  background: #e3cba9;
+}
+
+/* underline animation for inline links */
+.link {
+  color: var(--color-accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+.link:hover {
+  border-bottom-color: var(--color-accent);
+}
