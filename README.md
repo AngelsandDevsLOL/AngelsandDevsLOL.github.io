@@ -1,7 +1,7 @@
-# angelina jiang — portfolio
+# angelina jiang · portfolio
 
 Personal portfolio website. Built with **Next.js (App Router)**, **React**, and
-**Tailwind CSS v4**. Plain, minimal, monospace — with a left sidebar nav and six
+**Tailwind CSS v4**. Plain, minimal, monospace, with a left sidebar nav and six
 pages: home, about, work, projects, skills, contact.
 
 ## Develop
@@ -19,11 +19,11 @@ npm run build    # outputs static site to ./out
 
 ## Editing content
 
-All page content lives in [`app/data.ts`](app/data.ts) — edit there to update
+All page content lives in [`app/data.ts`](app/data.ts). Edit there to update
 experience, projects, skills, and contact info. No need to touch the page
 components.
 
-## Deployment — GitHub Pages
+## Deployment to GitHub Pages
 
 This repo is a user/organization page (`angelsanddevslol.github.io`), served
 from the domain root, so no `basePath` is needed. Deployment is automated via

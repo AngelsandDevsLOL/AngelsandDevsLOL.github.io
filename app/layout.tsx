@@ -4,7 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import { profile } from "./data";
 
 export const metadata: Metadata = {
-  title: `${profile.name} — portfolio`,
+  title: `${profile.name} · portfolio`,
   description: profile.tagline,
 };
 

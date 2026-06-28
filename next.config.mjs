@@ -10,7 +10,7 @@ const nextConfig = {
   // Pin the workspace root (a stray lockfile in the home dir confuses Next).
   outputFileTracingRoot: __dirname,
   // This is a user/organization page (angelsanddevslol.github.io),
-  // so it is served from the domain root — no basePath needed.
+  // so it is served from the domain root, with no basePath needed.
   images: {
     unoptimized: true,
   },

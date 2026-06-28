@@ -30,36 +30,36 @@ export type Job = {
 
 export const experience: Job[] = [
   {
-    role: "AI Research Assistant",
+    role: "Artificial Intelligence Research Assistant",
     org: "The Matter Lab, University of Toronto",
     dates: "May 2026 – Present",
     location: "Toronto, ON",
     points: [
-      "Built an evaluation harness to benchmark LLM code-generation agents across models and workflows — measuring token usage, latency, and code complexity to compare agent efficiency across MCP-server tool calls.",
-      "Scaled agentic pipelines beyond interactive-session limits by orchestrating multi-hour batch compute across HPC nodes with SLURM, enabling long-running autonomous workloads.",
-      "Optimized structural execution graphs in Python for El Agente: Grafico with Prof. Alán Aspuru-Guzik.",
+      "Built an evaluation harness to benchmark LLM code-generation agents across models and workflows, looking at token usage, latency, and code complexity to compare agent efficiency across MCP-server tool calls",
+      "Scaled agentic pipelines beyond interactive-session limits by orchestrating multi-hour batch compute across HPC nodes with SLURM, enabling long-running autonomous workloads",
+      "Optimized structural execution graphs in Python for the El Agente: Grafico with Prof. Alán Aspuru-Guzik",
     ],
   },
   {
     role: "Software Engineer",
-    org: "Dept. of Computer Science, University of Toronto",
+    org: "Department of Computer Science, University of Toronto",
     dates: "May 2026 – Present",
     location: "Toronto, ON",
     points: [
-      "Shipped feature enhancements to Courseography, an open-source Haskell + React site used by 250+ CS students/month to visualize prerequisites, program requirements, and term schedules.",
-      "Performed a schema migration in SQLite that refactored internal data access for readability.",
-      "Built a quality pipeline with Jest and Coveralls — 59% statement coverage across 500+ automated tests on CircleCI via TDD.",
+      "Shipped feature enhancements to Courseography, an open-source website in Haskell and React, used by 250+ computer science students per month to visualize course prerequisites, program requirements, and term schedules",
+      "Performed a schema migration in SQLite that refactored internal data access to improve readability",
+      "Built and maintained a quality pipeline with Jest and Coveralls, achieving 59% statement coverage across 500+ automated tests on CircleCI by applying test-driven development (TDD) and expanding unit-test coverage",
     ],
   },
   {
     role: "Software Engineer",
-    org: "Clean Architecture Visualizer for Education (CAVE)",
+    org: "Clean Architecture Visualizer for Education",
     dates: "May 2026 – Present",
     location: "Toronto, ON",
     points: [
-      "Built features for CAVE (TypeScript, JavaScript, React) that helped 100+ users learn and practice software design principles.",
-      "Delivered a matching exercise end-to-end — owning the full cycle from Figma design to implementation and testing.",
-      "Reduced wall-clock runtime by 5.1% by adopting DevOps practices and reconfiguring GitHub Actions (CI/CD).",
+      "Built features for CAVE, a program built in TypeScript, JavaScript and React, that helped 100+ users learn and practice software design principles",
+      "Delivered a matching exercise end-to-end, owning the full cycle from Figma design to implementation and testing",
+      "Reduced wall-clock runtime by 5.1% by adopting DevOps practices and reconfiguring GitHub Actions (CI/CD)",
     ],
   },
   {
@@ -68,9 +68,9 @@ export const experience: Job[] = [
     dates: "May 2026 – Present",
     location: "Toronto, ON",
     points: [
-      "Built a full-stack user import feature in React.js and Node.js for an exam-prep platform used by 300+ users.",
-      "Streamlined deployment and local development by containerizing the application with Docker.",
-      "Created REST API endpoints to fetch and display users from a PostgreSQL database using Prisma.",
+      "Built a full-stack user import feature in React.js and Node.js for an exam-preparation platform used by 300+ users",
+      "Streamlined deployment and local development by containerizing the application with Docker",
+      "Created REST API endpoints to fetch and display users from the PostgreSQL database using Prisma",
     ],
   },
 ];
@@ -109,7 +109,7 @@ export const projects: Project[] = [
     stack: "Python, pandas, Matplotlib, NumPy, XGBoost",
     date: "Feb – March 2026",
     points: [
-      "Built an XGBoost model at the SDSS Datathon that flags flight-fare inflation against expected pricing — 91.8% accuracy on real-time fare data.",
+      "Built an XGBoost model at the SDSS Datathon that flags flight-fare inflation against expected pricing, reaching 91.8% accuracy on real-time fare data.",
       "Ensured statistical integrity by cleaning data with pandas/NumPy and validating with an 80/20 split and cross-validation.",
       "Communicated model insights and inflation trends through Power BI dashboards and Matplotlib visualizations.",
     ],
@@ -188,8 +188,8 @@ export const leadership = [
 ];
 
 export const achievements = [
-  "Fermat Math Contest (2024) — Top 1% among 19,000+ contestants internationally (University of Waterloo)",
-  "Canadian Girls' Math Contest (2024) — 3rd place, Senior Division (CGMC)",
+  "Fermat Math Contest (2024): Top 1% among 19,000+ contestants internationally (University of Waterloo)",
+  "Canadian Girls' Math Contest (2024): 3rd place, Senior Division (CGMC)",
 ];
 
 export const skills: { group: string; items: string[] }[] = [
