@@ -16,7 +16,7 @@ export const profile = {
 export const education = {
   school: "University of Toronto",
   degree: "Bachelor's Degree, Computer Science",
-  dates: "Sept. 2025 – May 2028",
+  dates: "Sept. 2025 – April 2028",
   gpa: "3.97 / 4.00",
 };
 
