@@ -6,37 +6,6 @@ left sidebar nav, and six pages: home, about, work, projects, skills, contact.
 
 Live at **[angelsanddevslol.github.io](https://angelsanddevslol.github.io/)**.
 
-## Develop
-
-```bash
-npm install
-npm run dev      # http://localhost:3000
-```
-
-## Build (static export)
-
-```bash
-npm run build    # outputs the static site to ./out
-```
-
-## Project structure
-
-```
-app/
-  layout.tsx        root layout (loads the sidebar + fonts)
-  page.tsx          home
-  about/            about page
-  work/             work experience
-  projects/         projects
-  skills/           skills
-  contact/          contact
-  data.ts           all page content lives here
-  globals.css       theme tokens (the coffee palette)
-components/
-  Sidebar.tsx       left sidebar: avatar, nav, social icons, resume
-  PageHeading.tsx   shared page title block
-public/assets/      served files: profile.png, resume.pdf
-```
 
 ## Editing content
 
@@ -50,10 +19,11 @@ the resume links read `resume.pdf`).
 
 ## Theme
 
-Colors are defined as tokens in [`app/globals.css`](app/globals.css) under the
-`@theme` block (`--color-paper`, `--color-ink`, `--color-accent`,
-`--color-sidebar`, and so on). Change them in one place and the whole site
-updates.
+  .=%%=.
+,|`=%%='|
+||      |
+`|      |
+  `-__-'
 
 ## Deployment to GitHub Pages
 
